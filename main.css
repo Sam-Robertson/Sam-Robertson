@@ -4,13 +4,8 @@ html,body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background-color: #000000;
     color: #ababab;
-    display: inline-flex;
-}
-#leftMargin {
-    width: 285px;
-    height: 100%;
+    background-color: black;
 }
 #topBar {
     display: inline-flex;
@@ -20,7 +15,7 @@ html,body {
     font-weight: 300;
     height: 45px;
     padding-top: 95px;
-    background-color: black;
+    /* color: #007700; */
 }
 #leftBar {
     text-align: left;
@@ -37,13 +32,25 @@ html,body {
 #rightBar {
     text-align: right;
 }
-#mainBody {
-    padding-right: 8%;
+#topContainer {
+    background-image: url(images/BlackSand.jpg); 
+    height: 100%;
 }
+.parallax {
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 8%;
+    padding-left: 8%;
+  }
 #topBody {
     text-align: left;
     position: relative;
-    width: 88%;
+    width: 100%;
+    height: 100%;
+    
 }
 #myName {
    
@@ -62,13 +69,20 @@ html,body {
 .myArrow {
     width: 100%;
     text-align: left;
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 120px;
 
 }
-.project {
+.projectBlack{
     display: inline-flex;
-    width: 88%;
+    padding-top: 20%;
+}
+.projectPic{
+    display: inline-flex;
+    background-color: rgba(0,0,0, 0.8); 
+    border: 3px solid #f1f1f1;
+    padding: 20px;
+    margin-top: 15%;
 }
 .projectLeft {
     width: 50%;
@@ -106,14 +120,29 @@ html,body {
 	position:relative;
 	top:1px;
 }
+#secondProject {
+    background-image: url(images/City.jpg);
+    height: 95%;
+    
+}
+#fourthProject {
+    background-image: url(images/Mountain.jpg);
+    height: 95%;
+}
+
 #contactBody{
     width: 100%;
     font-weight: 300;
     font-size: 47px;
-    
+    padding-left: 8%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 .contactTitle{
     font-size: 47px;
     color: #ffffff;
 }
+
+
+  
 
