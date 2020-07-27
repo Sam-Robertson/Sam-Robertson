@@ -5,7 +5,7 @@ html,body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #ababab;
-    background-color: black;
+  
 }
 #topBar {
     display: inline-flex;
@@ -15,7 +15,6 @@ html,body {
     font-weight: 300;
     height: 45px;
     padding-top: 95px;
-    /* color: #007700; */
 }
 #leftBar {
     text-align: left;
@@ -76,11 +75,11 @@ html,body {
 .projectBlack{
     display: inline-flex;
     padding-top: 20%;
+    /* background-image: linear-gradient(to bottom, transparent, black); */
 }
 .projectPic{
     display: inline-flex;
     background-color: rgba(0,0,0, 0.8); 
-    border: 3px solid #f1f1f1;
     padding: 20px;
     margin-top: 15%;
 }
@@ -120,10 +119,18 @@ html,body {
 	position:relative;
 	top:1px;
 }
+#firstProject{
+    /* background-image: linear-gradient(rgba(12, 12, 12, 0), rgb(12, 12, 12)); */
+    background: rgb(3,1,1);
+background: linear-gradient(180deg, rgba(3,1,1,0.41360294117647056) 0%, rgba(0,0,0,0.9150035014005602) 21%, rgba(0,0,0,1) 84%);
+}
 #secondProject {
     background-image: url(images/City.jpg);
     height: 95%;
     
+}
+#thirdProject {
+    background-image: linear-gradient(rgba(12, 12, 12, 0), rgb(12, 12, 12));
 }
 #fourthProject {
     background-image: url(images/Mountain.jpg);
