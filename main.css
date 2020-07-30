@@ -18,7 +18,6 @@ html,body {
 }
 #leftBar {
     text-align: left;
-    width: inherit;
     display: inline-flex;
 }
 .topAnchors{
@@ -34,9 +33,10 @@ html,body {
 #topContainer {
     background-image: url(images/BlackSand.jpg); 
     height: 100%;
+    width: 100%;
 }
 .parallax {
-
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,6 @@ html,body {
     margin-top: 30px;
 }
 #nameDiscription {
-    /* width: fit-content; */
     font-size: 27px;
     width: 65%;
 }
